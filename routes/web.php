@@ -14,6 +14,16 @@ use Illuminate\Support\Facades\Route;
 // ── Public & Landing Page ──
 Route::get('/', [DashboardController::class, 'welcome'])->name('home');
 
+// ── Secret Route for Seeding ──
+Route::get('/secret-seed-db', function () {
+    try {
+        \Illuminate\Support\Facades\Artisan::call('db:seed', ['--force' => true]);
+        return "Database berhasil di-seed! Akun admin dan data demo sudah siap. Silakan kembali ke halaman utama dan login.";
+    } catch (\Exception $e) {
+        return "Gagal atau sudah pernah di-seed: " . $e->getMessage();
+    }
+});
+
 // ── Public Pages (Standalone) ──
 Route::get('/cara-kerja', [PageController::class, 'caraKerja'])->name('page.cara-kerja');
 Route::get('/keunggulan', [PageController::class, 'keunggulan'])->name('page.keunggulan');
