@@ -51,6 +51,8 @@
                             @if($order->allocation && $order->allocation->qrCode)
                                 @if($order->allocation->status === 'picked_up')
                                     <span class="badge badge-gray">Sudah Diambil</span>
+                                @elseif($order->campaign && !$order->campaign->isTargetReached())
+                                    <span class="badge badge-amber">Menunggu</span>
                                 @else
                                     <span class="badge badge-green">Siap Ambil</span>
                                 @endif
