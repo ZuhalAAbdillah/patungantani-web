@@ -1,0 +1,46 @@
+==============================================================
+PANDUAN GENERATE PRESENTASI DI NOTEBOOKLM
+==============================================================
+
+Jika Anda berencana menggunakan Google NotebookLM untuk meracik format presentasi (PPT) atau membuat ringkasan lisan (Audio Overview/Podcast) secara otomatis, ikuti langkah-langkah di bawah ini:
+
+LANGKAH 1: SIAPKAN SUMBER REFERENSI (SOURCE)
+1. Buka website https://notebooklm.google.com/
+2. Buat "Notebook" baru.
+3. Pada bagian *Sources* (sumber), unggah (upload) file "presentasi_patungantani.txt" versi terbaru yang sudah berisi studi kasus keuntungan dan bukti berita.
+
+LANGKAH 2: COPY-PASTE PROMPT INI KE NOTEBOOKLM
+Salin teks di bawah garis putus-putus ini dan tempelkan (paste) ke kolom obrolan (chat) di NotebookLM Anda:
+
+--------------------------------------------------------------
+Bertindaklah sebagai ahli pembuat presentasi (Pitch Deck Expert) yang sangat pintar menyederhanakan hal-hal kompleks menjadi naskah cerita yang mengalir. 
+Berdasarkan dokumen sumber "presentasi_patungantani.txt" yang saya unggah, tolong buatkan kerangka presentasi slide-by-slide yang memukau.
+
+ATURAN SANGAT PENTING:
+1. Anda HANYA boleh mengambil informasi dan penjelasan dari dokumen sumber tersebut. Jangan mengarang informasi di luar dokumen.
+2. DILARANG KERAS menggunakan istilah-istilah teknis atau akademis yang sulit dipahami. Gunakan bahasa lisan sehari-hari yang sangat membumi, sederhana, dan ramah seperti orang sedang bercerita.
+3. Nanti saya akan menyisipkan gambar screenshot web ke dalam presentasi. Namun, karena teks pada screenshot pasti akan terlihat kecil di proyektor, maka jadikan screenshot HANYA sebagai hiasan visual. 
+4. SKRIP BICARA HARUS "SIAP BACA" (TINGGAL BACA): Saya ingin Anda menuliskan bagian "Skrip Bicara (Talking Points)" DALAM BENTUK KALIMAT UTUH YANG PANJANG, JELAS, DAN SANGAT MENDETAIL, BUKAN POIN-POIN PENDEK. Skrip ini harus dirangkai seolah-olah itu adalah naskah presenter yang siap saya bacakan persis kata-per-kata (word-by-word) di depan audiens. Saya tidak ingin berpikir untuk merangkai kalimat lagi, jadi buatlah transisi antar kalimatnya sangat luwes dan enak didengar.
+
+Tolong pastikan presentasi ini mencakup alur cerita berikut:
+1. Urgensi & Fakta Lapangan: Kelangkaan pupuk subsidi, meroketnya harga pupuk non-subsidi, dan rantai distribusi panjang yang mencekik petani. (Di skrip bicara, bacakan juga judul berita dari media nasional yang ada di dokumen agar argumen kita terdengar kuat).
+2. Cerita di Balik Layar: Ceritakan repotnya praktik "patungan" manual yang selama ini membebani Ketua Gapoktan (harus mencatat pesanan pakai buku tulis, hitung uang tunai, salah catat, dsb).
+3. Solusi Utama: PatunganTani.id memotong rantai pasok dengan "digitalisasi gotong royong".
+4. Studi Kasus Keuntungan (SANGAT PENTING): Di bagian ini, tuliskan skrip bicara yang menjelaskan simulasi perhitungan uang (Skenario NPK Mutiara) dengan SANGAT PELAN DAN DETAIL. Sebutkan angka-angkanya secara gamblang dalam naskah bacaan tersebut agar audiens langsung sadar betapa besarnya penghematan bagi petani (hemat Rp 115.000/sak), komisi untuk Ketua, dan biaya platform untuk Admin.
+5. Fitur Andalan: Cara kerja scan QR yang langsung jalan lewat browser web (tanpa perlu repot install aplikasi dari Playstore), sehingga pembagian pupuk bebas antre panjang dan anti salah ambil barang.
+
+Untuk setiap slide, tolong tuliskan dengan format baku berikut:
+- Judul Slide
+- Teks Utama di Layar Slide (Tulis poin-poin penjelasan di layar dengan detail namun rapi)
+- Skrip Bicara Siap Baca (Tuliskan NASKAH PANJANG berisi kalimat-kalimat utuh yang akan saya baca persis kata-per-kata. Rangkai dengan sangat luwes, mendetail, dan sangat jelas layaknya naskah MC/Presenter!)
+- Saran Desain Visual & Screenshot (Sebutkan screenshot/gambar apa yang diletakkan di slide ini sebagai pelengkap)
+--------------------------------------------------------------
+
+LANGKAH 3: DAFTAR GAMBAR (SCREENSHOT) YANG HARUS ANDA SIAPKAN
+Sambil menunggu NotebookLM meracik presentasi tersebut, buka website PatunganTani.id dan siapkan screenshot ini sebagai elemen pendukung visual di slide:
+
+1. Screenshot Halaman Depan: Tangkap bagian banner atas yang menampilkan judul dan ilustrasi.
+2. Screenshot Dasbor Petani: Tampilkan kotak bertuliskan "Estimasi Penghematan".
+3. Screenshot Halaman Checkout: Tampilan rincian biaya yang ada Platform Fee 5%.
+4. Screenshot Layar Scan QR Code: Tampilan layar HP Ketua saat membuka kamera pemindai.
+5. Screenshot Laporan Keuangan: Tabel "Pendapatan Bersih Admin & Komisi Ketua" untuk membuktikan bahwa sistem ini transparan.

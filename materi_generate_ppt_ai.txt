@@ -1,0 +1,92 @@
+Buatkan presentasi sebanyak 12 slide berdasarkan outline materi di bawah ini. Tolong gunakan bahasa yang sangat sederhana, mudah dipahami (tidak teknis). PPT ini akan digunakan sebagai *pengganti demonstrasi langsung (live demo)* dari website yang saya buat. Oleh karena itu, pastikan teks di setiap slide menjelaskan fitur dan alur penggunaan website secara sangat rinci, terarah, dan jelas, seolah-olah audiens sedang menggunakan website tersebut secara langsung.
+
+---
+
+Slide 1
+(Thumbnail / Cover Utama)
+Judul: PatunganTani.id
+Sub-Judul: Platform Digitalisasi Gotong Royong, Wujudkan Pupuk Murah untuk Petani.
+
+Slide 2
+Judul: Mengapa Website Ini Dibuat? (Latar Belakang)
+Isi Teks Slide:
+- Kelangkaan pupuk subsidi memaksa petani membeli pupuk non-subsidi yang harganya dimonopoli oleh tengkulak/kios nakal (karena rantai distribusi terlalu panjang).
+- Praktik "Patungan Kolektif" (beli 1 truk langsung ke distributor) di desa sebenarnya sudah ada, tapi sangat merepotkan kordinator secara administrasi (mencatat di buku, rawan selisih uang, antrean kacau).
+- Website PatunganTani.id diciptakan murni untuk menyelesaikan masalah administrasi manual tersebut melalui otomasi teknologi.
+
+Slide 3
+Judul: 3 Peran Pengguna (Multi-Role System) di Website
+Isi Teks Slide:
+- Website ini tidak ditujukan untuk satu jenis pengguna saja. Kami membagi sistem ke dalam 3 peran (Role) akun yang saling terhubung:
+- 1. Akun PETANI: Bertugas mencari kampanye patungan di halaman depan dan memesan pupuk secara grosir.
+- 2. Akun KETUA GAPOKTAN: Bertugas membuat kampanye baru, memvalidasi uang transferan, dan membagikan barang.
+- 3. Akun ADMIN: Bertugas memantau seluruh transaksi dan melihat laporan bagi hasil keuntungan platform.
+
+Slide 4
+Judul: Alur Kerja Website Tahap 1 (Inisiasi Kampanye)
+Isi Teks Slide:
+- Langkah pertama selalu dimulai oleh sang KETUA.
+- Ketua melakukan Login ke dalam website dan masuk ke menu "Buat Kampanye".
+- Di sana, Ketua memasukkan nama pupuk (misal NPK Mutiara), batas waktu pengumpulan dana, target jumlah (misal 100 karung/1 truk), dan harga dasar yang sudah disepakati dengan pihak distributor.
+- Setelah disimpan, tautan (link) dari kampanye di website ini tinggal disebarkan oleh Ketua ke grup WhatsApp para petani.
+
+Slide 5
+Judul: Alur Kerja Website Tahap 2 (Checkout oleh Petani)
+Isi Teks Slide:
+- Petani mengklik link tersebut dari HP mereka tanpa perlu mendownload aplikasi apa pun.
+- Di Halaman Utama, mereka bisa melihat produk dan mengklik tombol "Ikut Patungan".
+- Pada Halaman Checkout, website akan langsung menampilkan rincian total tagihan secara transparan (Harga Dasar + Fee Layanan).
+- Setelah petani mentransfer uang ke rekening Ketua, Ketua memvalidasinya di web, dan status pesanan otomatis berubah menjadi "LUNAS".
+
+Slide 6
+Judul: Tampilan Transparansi Biaya di Dasbor
+Isi Teks Slide:
+- Website kami didesain untuk mengedukasi petani agar tahu pasti seberapa besar mereka bisa berhemat.
+- Misalnya harga di Kios biasa mencapai Rp 850.000. Namun di website kami, harga dasar Distributor Rp 700.000 + Biaya Layanan Sistem 5% (Rp 35.000). Total bayar hanya Rp 735.000.
+- Di halaman "Dasbor Petani", terdapat kotak informasi bernama "Estimasi Penghematan" yang langsung menampilkan angka penghematan sebesar Rp 115.000 per karung. Visualisasi ini membuat petani merasa diuntungkan.
+
+Slide 7
+Judul: Sistem Pembagian Keuntungan (Win-Win Solution)
+Isi Teks Slide:
+- Biaya Layanan 5% (Rp 35.000/sak) yang ditarik oleh sistem tidak dimonopoli oleh pemilik aplikasi.
+- Melalui menu Dasbor Admin, uang ini langsung dipecah algoritmanya:
+- 40% (Rp 14.000) masuk sebagai saldo Komisi Ketua sebagai ganti jerih payah mengkordinir warga. (Jika terkumpul 1 truk isi 100 sak, Ketua otomatis mendapat komisi bersih Rp 1.400.000).
+- 60% sisanya masuk ke rekening pengelola platform untuk biaya sewa server website. Benar-benar transparan!
+
+Slide 8
+Judul: Fitur Canggih Website: Kupon QR Code
+Isi Teks Slide:
+- Keunggulan utama dimulai di sini: Setelah pesanan berstatus LUNAS, website akan otomatis menerbitkan Kupon Digital berbentuk "QR Code" (Kode Barcode) di akun layar HP masing-masing Petani.
+- Kupon digital ini memusnahkan penggunaan nota kertas tradisional yang mudah basah, kucel, atau hilang.
+- Bukti kepemilikan barang sudah terekam permanen dan sangat aman di dalam database server website.
+
+Slide 9
+Judul: Tahap Akhir: Scan QR Saat Pembagian Barang
+Isi Teks Slide:
+- Saat truk pupuk tiba di balai desa, tidak ada lagi petani yang berdesakan berebut jatah menggunakan pulpen dan kertas.
+- Petani cukup antre dengan menunjukkan layar HP bergambar QR Code mereka.
+- Sang Ketua tinggal membuka menu "Scan QR" di website akun Ketua, lalu mengarahkan kamera HP-nya ke layar HP petani tersebut.
+- Proses pembagian barang menjadi secepat kasir minimarket, praktis, dan anti salah-ambil barang!
+
+Slide 10
+Judul: Keunggulan Teknis: Kamera dari Web Browser!
+Isi Teks Slide:
+- Ini adalah salah satu inovasi teknis paling menonjol dari website yang kami bangun.
+- Fitur pemindai kamera (Scan QR) bisa langsung berjalan di atas Web Browser standar (menggunakan teknologi WebRTC).
+- Artinya, Petani maupun Ketua SAMA SEKALI TIDAK PERLU menghabiskan memori Handphone untuk mengunduh (download) dan memasang aplikasi dari Playstore. Cukup buka link web, kamera bisa menyala dan memindai dengan mulus.
+
+Slide 11
+Judul: Tampilan Desain Web yang Responsif (Mobile-First)
+Isi Teks Slide:
+- Kami sadar betul bahwa mayoritas pengguna (petani) akan mengakses website ini saat berada di luar ruangan atau di ladang.
+- Oleh karena itu, rancangan antarmuka (UI/UX) web ini mengusung pendekatan "Mobile-First".
+- Meski berupa website, saat dibuka di HP tampilannya sangat rapi menyerupai Aplikasi Asli (Native App).
+- Tombol-tombol dibuat berukuran besar, navigasinya sangat mudah bagi orang awam (gaptek), dan menggunakan warna Emerald Green yang segar di mata.
+
+Slide 12
+Judul: Kesimpulan Akhir
+Isi Teks Slide:
+- Melalui presentasi sistem PatunganTani.id ini, kami menunjukkan bahwa masalah kelangkaan dan monopoli harga pupuk bisa dipecahkan melalui digitalisasi kearifan lokal.
+- Website kami mengubah budaya gotong royong tradisional menjadi sistem yang sangat terukur, adil bagi Ketua Gapoktan, menguntungkan bagi Petani kecil, dan sustain (berkelanjutan) untuk pengelola platform.
+- Tanpa install aplikasi tambahan, tanpa buku catatan kertas yang rumit, dan anti-penipuan. Sebuah solusi nyata untuk kesejahteraan pahlawan pangan!
+---

@@ -1,0 +1,45 @@
+databases:
+  - name: patungantani-db
+    databaseName: patungantani
+    user: patungantani
+    plan: free
+
+services:
+  - type: web
+    name: patungantani-app
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: APP_KEY
+        value: "base64:rVEmCaF2fTVAkBEt9B5d94Um8011Lgfhko5UbP3TJDA="
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://patungantani-app.onrender.com
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        fromDatabase:
+          name: patungantani-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: patungantani-db
+          property: port
+      - key: DB_DATABASE
+        fromDatabase:
+          name: patungantani-db
+          property: database
+      - key: DB_USERNAME
+        fromDatabase:
+          name: patungantani-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: patungantani-db
+          property: password

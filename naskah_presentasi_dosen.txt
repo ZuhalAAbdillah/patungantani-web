@@ -1,0 +1,31 @@
+Bahan Presentasi: Aplikasi PatunganTani (Versi Narasi Natural & Non-Teknis)
+Catatan: Bacalah teks ini dengan santai seperti sedang bercerita, jangan terlihat menghafal.
+
+==============================================================
+
+Halo, Bapak/Ibu Dosen dan teman-teman semua. Hari ini saya ingin mempresentasikan sebuah karya yang berangkat dari kegelisahan saya sendiri di kampung halaman saya, Belitang, Sumatera Selatan.
+
+Seperti yang kita tahu, Belitang adalah daerah lumbung pangan. Sebagian besar masyarakat di sana adalah petani. Tapi, ada satu masalah sosial dan ekonomi klasik yang selalu berulang setiap musim tanam: harga pupuk selalu melambung tinggi, apalagi kalau petani membelinya secara eceran di kios. 
+
+Sebenarnya, kalau kita beli langsung ke distributor besar, harganya bisa jauh lebih murah. Masalahnya, distributor besar tidak melayani pembelian eceran 1-2 karung, mereka mensyaratkan pembelian partai besar minimal satu truk. Petani kecil tentu tidak punya uang sebanyak itu.
+
+Nah, masyarakat di desa saya punya kearifan lokal untuk mengatasi ini, yaitu semangat gotong royong. Para petani biasanya akan "patungan" atau mengumpulkan pesanan dan uang kepada satu orang kordinator, biasanya Ketua Kelompok Tani (Gapoktan). Uang patungan warga yang terkumpul ini nantinya dipakai untuk memborong pupuk ke distributor. Solusi yang sangat cerdas, bukan?
+
+Namun, masalah ternyata belum selesai. Saat saya amati, tugas menjadi kordinator patungan desa ini luar biasa berat dan memusingkan. Bayangkan, kordinator harus mencatat pesanan puluhan sampai ratusan petani secara manual di buku tulis. Mencatat uang tunai yang terkumpul sering kali rawan selisih (kurang). Puncaknya, saat truk pupuk tiba di desa, pembagiannya sering kacau dan berebut karena catatan kertasnya kadang hilang, basah, atau sulit dibaca. Administrasinya sangat berantakan dan rawan konflik antar warga.
+
+Berangkat dari masalah nyata inilah, saya mencoba memberikan solusi dengan membuat sebuah aplikasi sederhana berbasis web yang saya beri nama "PatunganTani". Tujuan utamanya adalah memberdayakan masyarakat desa, khususnya membantu kordinator kelompok tani agar tidak lagi pusing mengurus administrasi patungan.
+
+Secara sederhana, cara kerja aplikasi ini sangat mudah dipahami warga:
+
+Pertama, kordinator kelompok tani cukup membuat pengumuman (kampanye) di aplikasi bahwa sedang ada pembukaan patungan beli pupuk jenis tertentu.
+Kedua, para petani tinggal membuka link dari HP mereka, memilih mau ikut patungan berapa karung, dan membayar. Setelah itu, sistem akan otomatis merekap semuanya. Kordinator tidak perlu lagi menulis di buku lecek.
+Ketiga, ini fitur unggulannya. Setelah pupuk datang di balai desa, bagaimana membagikannya agar tertib? Di aplikasi ini, setiap petani yang sudah membayar lunas akan mendapatkan "Kupon Digital" berupa kode QR (seperti *barcode*) di HP mereka. Saat mau ambil pupuk, kordinator cukup memindai (*scan*) kupon tersebut pakai kamera HP. Layar akan langsung bilang "Valid, kasih 5 karung". Sangat rapi, tertib, dan mencegah ada warga yang curang mengambil jatah dua kali.
+
+Sebagai sebuah inovasi sosial, sistem ini juga harus bisa berkelanjutan. Oleh karena itu, aplikasi ini mengenakan biaya operasional yang sangat kecil, yaitu 5% dari total pesanan. Misalnya harga patungan pupuk Rp100.000, maka biayanya hanya Rp5.000. 
+Yang membuat sistem ini sangat adil adalah pembagiannya. Dari 5% tersebut, hampir setengahnya (40%) kita berikan kembali kepada kordinator kelompok tani sebagai insentif atau "upah lelah" yang transparan karena sudah bersedia mengurus warga. Sisanya baru digunakan untuk biaya perawatan aplikasi. 
+
+Meskipun ada tambahan biaya 5%, harga akhir yang dibayar petani dijamin tetap jauh lebih murah (bisa hemat 10-15%) dibandingkan jika mereka harus membeli eceran sendiri di pasar yang penuh dengan perantara. Jadi, semua pihak benar-benar diuntungkan.
+
+Kesimpulannya, Bapak/Ibu Dosen dan teman-teman, PatunganTani bukanlah sekadar aplikasi canggih-canggihan. Ini adalah wujud digitalisasi dari budaya gotong royong lokal. Dengan sentuhan teknologi ini, kita bisa memotong rantai tata niaga pupuk yang panjang, meringankan beban administrasi pengurus desa, dan pada akhirnya membantu menyejahterakan para petani kecil.
+
+Terima kasih, sekian presentasi dari saya.
