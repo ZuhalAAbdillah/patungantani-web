@@ -64,7 +64,10 @@ class DashboardController extends Controller
         $totalSpent = $orders->where('status', 'paid')->sum('total_price');
         $totalQuantity = $orders->where('status', 'paid')->sum('quantity');
         $activeKupons = $orders->filter(function ($order) {
-            return $order->allocation && $order->allocation->status === 'allocated';
+            return $order->allocation 
+                && $order->allocation->status === 'allocated' 
+                && $order->campaign 
+                && $order->campaign->isTargetReached();
         })->count();
         $redeemedKupons = $orders->filter(function ($order) {
             return $order->allocation && $order->allocation->status === 'redeemed';

@@ -30,6 +30,11 @@ class ScanController extends Controller
             return redirect()->back()->with('error', 'Kupon QR tidak valid atau tidak ditemukan.');
         }
 
+        $campaign = $qrCode->allocation->order->campaign ?? null;
+        if ($campaign && !$campaign->isTargetReached()) {
+            return redirect()->back()->with('error', 'Kupon ini belum aktif. Kuota patungan kampanye belum terpenuhi.');
+        }
+
         if ($qrCode->is_scanned) {
             return redirect()->back()->with('error', 'Kupon sudah pernah di-scan sebelumnya pada ' . $qrCode->updated_at->format('d M Y H:i'));
         }

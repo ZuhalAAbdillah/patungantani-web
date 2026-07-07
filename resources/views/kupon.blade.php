@@ -17,13 +17,23 @@
 
                     <h2 style="font-size: 18px; font-weight: 700; color: #0F2B1F; margin: 0 0 24px 0;">{{ $qrRecord->code }}</h2>
 
-                    <div style="border: 2px dashed #E8ECE9; padding: 24px; border-radius: 16px; margin-bottom: 20px; background: #F8FAF9;">
-                        <div style="background: #0F2B1F; padding: 32px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
-                            <div style="background: #fff; padding: 16px; border-radius: 8px;">
-                                {!! $qrImage !!}
+                    @if($allocation->order->campaign && !$allocation->order->campaign->isTargetReached())
+                        <div style="text-align: center; padding: 20px;">
+                            <div style="font-size: 40px; margin-bottom: 10px;">⏳</div>
+                            <h2 style="font-size: 16px; color: #0F2B1F; margin: 0 0 10px 0;">Menunggu Kuota Terpenuhi</h2>
+                            <p style="font-size: 13px; color: #6B7280; line-height: 1.5; margin: 0;">
+                                Kupon akan aktif setelah kuota patungan ({{ $allocation->order->campaign->target_amount }} unit) terpenuhi.
+                            </p>
+                        </div>
+                    @else
+                        <div style="border: 2px dashed #E8ECE9; padding: 24px; border-radius: 16px; margin-bottom: 20px; background: #F8FAF9;">
+                            <div style="background: #0F2B1F; padding: 32px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <div style="background: #fff; padding: 16px; border-radius: 8px;">
+                                    {!! $qrImage !!}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    @endif
 
                     <p style="font-size: 13px; color: #6B7280; line-height: 1.6;">
                         Harap siapkan KTP atau identitas yang sesuai<br>dengan nama akun untuk verifikasi.

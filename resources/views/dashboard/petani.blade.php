@@ -322,7 +322,13 @@
 
             {{-- Quick Kupon --}}
             @php
-                $readyKupons = $orders->filter(fn($o) => $o->allocation && $o->allocation->status === 'allocated' && $o->allocation->qrCode)->take(3);
+                $readyKupons = $orders->filter(fn($o) => 
+                    $o->allocation && 
+                    $o->allocation->status === 'allocated' && 
+                    $o->allocation->qrCode &&
+                    $o->campaign && 
+                    $o->campaign->isTargetReached()
+                )->take(3);
             @endphp
             <div class="panel" id="kupon-section">
                 <div class="panel-header">

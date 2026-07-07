@@ -52,4 +52,9 @@ class Campaign extends Model
     {
         return max(0, $this->target_amount - $this->orderedQuantity());
     }
+
+    public function isTargetReached(): bool
+    {
+        return $this->orderedQuantity() >= $this->target_amount;
+    }
 }
